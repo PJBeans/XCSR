@@ -1,1 +1,3 @@
 # XCSR
+
+Public XC leaderboards
