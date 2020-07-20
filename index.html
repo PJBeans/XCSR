@@ -23,7 +23,7 @@
 
         $.ajax({
             type: "GET",
-            url: "http://localhost/times.csv",
+            url: "https://raw.githubusercontent.com/PJBeans/XCSR/master/times.csv",
             success: function(data) {
                 $('body').append(arrayToTable(Papa.parse(data).data));
             }
